@@ -1,5 +1,6 @@
-# AirBnB Clone - The Console
-The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of AirBnB project is to eventually deploy our server a simple copy of the AirBnB Website(HBnB). A command interpreter is created in this segment to manage objects for the AirBnB(HBnB) website.
+# AirBnB Clone - RESTful API
+expose all your objects stored via a JSON web interface
+manipulate your objects via a RESTful API
 
 #### Functionalities of this command interpreter:
 * Create a new object (ex: a new User or a new Place)
@@ -19,13 +20,15 @@ The console is the first segment of the AirBnB project at Holberton School that 
 * [License](#license)
 
 ## Environment
-This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3)
+This project is interpreted/tested on Ubuntu 20.04 LTS using python3 (version 3.8.10)
 
 ## Installation
-* Clone this repository: `git clone "https://github.com/alexaorrico/AirBnB_clone.git"`
-* Access AirBnb directory: `cd AirBnB_clone`
-* Run hbnb(interactively): `./console` and enter command
-* Run hbnb(non-interactively): `echo "<command>" | ./console.py`
+* Fork this repository: `"https://github.com/alexaorrico/AirBnB_clone_v2"`
+* Rename the repository as AirBnB_clone_v3
+* Access AirBnb directory: `cd AirBnB_clone_v3`
+* Install Flask using the command: pip3 insatll Flask
+* All codes can be tested using the command: python3 -m unittest discover tests
+* Or test file by file using the command: python3 -m unittest tests/test_models/test_base_model.py
 
 ## File Descriptions
 [console.py](console.py) - the console contains the entry point of the command interpreter. 
@@ -154,8 +157,8 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time. 
 
 ## Authors
-Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
-Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
+Abdulganiyu Kamaldeen - [Github](https://github.com/Kamous80) / [Twitter](https://twitter.com/Abdulganiy49139)  
+Manos Akpujiha
 
 Second part of Airbnb: Joann Vuong
 ## License
